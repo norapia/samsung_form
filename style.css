@@ -1,0 +1,35 @@
+body {
+    background-color: #242933;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #858fb1
+}
+
+.form {
+    margin: auto;
+    width: 30%;
+    border: 2px solid #3c4258;
+    padding: 10px;
+    background-color: #2f3644;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+
+h2 {
+    color: #a4b1d6
+}
+
+.out{
+    color: #cc0000
+}
+
+input{
+    background:url(images/error-icon.svg) no-repeat;
+    background-color: #fff;
+    background-position: right 3% top 50%;
+    background-size: 15px;
+    padding-right:50%;
+    border-radius: 6px;
+    color: black;
+    border-width: 1px;
+    border: 3px solid #cc0000;
+}

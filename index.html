@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+  <meta charset="utf-8">
+  <title>Formulario</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <script src="index.js"></script>
+</head>
+
+<body>
+
+  <body>
+  <div class="form">
+    <h2>Create Account</h2>
+      <form action="/action_page.html">
+        <label for="name">Nombre</label><br>
+        <input type="text" name="name" id="name" oninput="formName(this.value)"><br>
+        <div class="out" id="outName">Rellene este campo</div>
+        <label for="email">Email</label><br>
+        <input type="text" name="email" id="email" oninput="formMail(this.value)" >
+        <div class="out" id="outEmail">Rellene este campo</div>
+        <label for="pass1">Clave</label><br>
+        <input  type="password" name="contraseña" id="pass1" oninput="formPassword(this.value)"><br>
+        <div class="out" id="outPass1">Rellene este campo</div>
+        <label for="pass2">Confirme la clave</label><br>
+        <input type="password" name="repeat" id="pass2" oninput="formPasswordRepeat(this.value)"><br>
+        <div class="out" id="outPass2">Rellene este campo</div><br>
+        <button onclick="sendForm()" class="btn btn-primary btn-lg btn-block">ENVIAR</button>
+      </form>
+    </div>
+  </body>
+
+</html>
